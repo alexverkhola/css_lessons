@@ -1,15 +1,24 @@
-body{
-    background-color: #C1BAFF;
+
+/*Когда ничего не делаем*/
+a{
+    color: yellow;
 }
 
-p{
-    color: #4600BF;
+/*Когда навели на ссылку*/
+a:hover{
+    color: red;
+    animation: blinker 1s linear infinite;
 }
 
-ul li a{
-    color: #ffffff;
+/*когда нажали на ссылку*/
+a:active{
+    color: green;
+}
+/*Когда посетили ссылку*/
+a:visited{
+    color: purple;
 }
 
-.site, #string_from_site{
-    color: #d1ffb4;
+@keyframes blinker {
+  50% { opacity: 0; }
 }
