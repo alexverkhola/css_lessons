@@ -6,10 +6,10 @@ p{
     color: #4600BF;
 }
 
-#content{
-    background-color: #E4E3ED;
+ul li a{
+    color: #ffffff;
 }
 
-.title{
-    color: #F20020; 
+.site, #string_from_site{
+    color: #d1ffb4;
 }
