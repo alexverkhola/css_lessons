@@ -1,24 +1,7 @@
+p{
+    font-family: Impact,Charcoal, sans-serif;
+    font-style: italic;
+/*  font-style: normal; курсивный текст */
+/*    font-style: oblique;  наклонный текст. Он отличается от курсивного тем, что курсивный это текст написанный «от руки», а наколонный — это просто наклон букв вправо.*/
 
-/*Когда ничего не делаем*/
-a{
-    color: yellow;
-}
-
-/*Когда навели на ссылку*/
-a:hover{
-    color: red;
-    animation: blinker 1s linear infinite;
-}
-
-/*когда нажали на ссылку*/
-a:active{
-    color: green;
-}
-/*Когда посетили ссылку*/
-a:visited{
-    color: purple;
-}
-
-@keyframes blinker {
-  50% { opacity: 0; }
 }
